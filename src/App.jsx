@@ -21,9 +21,9 @@ const ICON_OPTIONS = [
 const getIcon = (id) => ICON_OPTIONS.find(o => o.id === id)?.svg || ICON_OPTIONS[9].svg;
 
 const DEFAULT_DATA = {
-  name: "Berkin Yılmaz",
-  handle: "@berkindev",
-  bio: "Software developer & content creator.",
+  name: "Yayo.Studios",
+  handle: "@yayo.studios",
+  bio: "Tu fabrica personal 3D.",
   avatarColor: "#6366f1",
   avatarLetter: "B",
   avatarImg: logoSrc,
